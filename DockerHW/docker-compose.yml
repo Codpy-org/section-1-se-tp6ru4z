@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build:
-      context: ./DockerHW/web
+      context: ./web
       dockerfile: Dockerflie
     ports:
       - "8080:5000"
