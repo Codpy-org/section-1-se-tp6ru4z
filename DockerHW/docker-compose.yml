@@ -4,7 +4,7 @@ services:
   web:
     build:
       context: ./web
-      dockerfile: Dockerflie
+      dockerfile: Dockerfile
     ports:
       - "8080:5000"
     volumes:
