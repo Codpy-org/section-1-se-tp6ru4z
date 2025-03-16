@@ -1,10 +1,10 @@
 FROM python:3.11-slim
 
 
-WORKDIR /app
+WORKDIR /web
 
 
-COPY . /app 
+COPY . /web
 
 RUN pip install --no-cache-dir -r requirements.txt
 
